@@ -10,6 +10,7 @@ router.get("/cart",authMiddleware,getCart)
 
 router.post("/addcart",authMiddleware,addToCart)
 
-module.exports = router
+module.exports = router 
+
 
 
