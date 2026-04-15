@@ -1,8 +1,4 @@
 
-
-
-
-
 var Product = require("../Model/ProductModel");
 const { uploadToCloudinary } = require("../helper/cloudinaryhelper");
 

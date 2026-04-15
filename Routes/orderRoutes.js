@@ -1,3 +1,20 @@
+// var express = require("express")
+// const { getAllOrders, getSingleOrder } = require("../Controller/orderController")
+// const authMiddleware = require("../Middleware/authMiddleware")
+
+
+// var router =  express.Router()
+
+
+// router.get("/orders",authMiddleware,getAllOrders)
+
+// router.get("/orders/:id",authMiddleware,getSingleOrder)
+
+
+// module.exports = router  
+
+
+
 var express = require("express")
 const { getAllOrders, getSingleOrder } = require("../Controller/orderController")
 const authMiddleware = require("../Middleware/authMiddleware")
@@ -11,4 +28,4 @@ router.get("/orders",authMiddleware,getAllOrders)
 router.get("/orders/:id",authMiddleware,getSingleOrder)
 
 
-module.exports = router  
+module.exports = router   
